@@ -284,6 +284,15 @@ html {
   margin: 0 20rem;
   gap: 5rem;
 }
+.blocosOrg,
+span {
+  transition: 0.5s;
+}
+
+span:hover {
+  transform: scale(1.25);
+  cursor: none;
+}
 .blocos {
   display: flex;
   flex-direction: column;
